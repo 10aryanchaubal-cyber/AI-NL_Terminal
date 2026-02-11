@@ -1,0 +1,81 @@
+NL-Terminal User Guide
+======================
+
+Welcome to NL-Terminal (v2). This tool allows you to use your computer command line
+using natural English sentences. It also works as a normal terminal for your usual commands.
+
+---
+1. QUICK START
+---
+- Windows: Double-click 'run_terminal.bat'
+- Linux/Mac: Run 'python main.py'
+
+---
+2. COMMAND CHEAT SHEET
+---
+
+[ FILE OPERATIONS ]
+  "create folder <name>"         -> Creates a new folder
+  "create file <name>"           -> Creates a new empty file
+  "delete file <name>"           -> Deletes a file (Safely backed up!)
+  "delete folder <name>"         -> Deletes a folder
+  "rename file <old> to <new>"   -> Renames a file
+  "move file <file> to <folder>" -> Moves a file
+  "copy file <file> to <folder>" -> Copies a file
+
+[ NAVIGATION ]
+  "show files" or "ls"           -> Lists files in current directory
+  "go to <path>"                 -> Changes directory (e.g., "go to Desktop")
+  "go back"                      -> Goes up one folder level
+  "where am i"                   -> Shows current path
+
+[ SYSTEM MONITORING ]
+  "check ram"                    -> Shows graphical memory usage
+  "check cpu"                    -> Shows graphical CPU usage
+  "check disk"                   -> Shows storage space
+  "my ip"                        -> Shows local IP address
+  "check internet"               -> Pings Google to check connection
+
+[ APP MANAGEMENT ]
+  "list processes"               -> Shows running applications
+  "kill process <name>"          -> Force closes an application (e.g., "kill process notepad")
+
+[ AI & HELP ]
+  "explain <command>"            -> AI explains what a command does (e.g., "explain ipconfig")
+  "teach me <topic>"             -> AI gives a mini-lesson (e.g., "teach me about ssh")
+
+---
+3. KEY FEATURES EXPLAINED
+---
+
+(A) ROLLBACK & UNDO
+    If you delete a file using NL-Terminal ("delete file..."), it is NOT lost forever.
+    We create a temporary backup.
+    
+    > Command: "undo" or "rollback"
+    > Action: Restores the last file you deleted.
+
+(B) SAFETY SANDBOX
+    - The terminal prevents you from accidentally deleting system files (like C:\Windows).
+    - For dangerous actions, it asks: "Are you sure? [y/N]"
+
+(C) MODES
+    Switch modes by typing "mode <name>":
+    
+    - "mode beginner" : Helpful tips, previews commands before running.
+    - "mode expert"   : Faster, fewer confirmations (commands run immediately if safe).
+    - "mode safe"     : Paranoid mode. Asks confirmation for almost everything.
+
+---
+4. TROUBLESHOOTING
+---
+- If AI features aren't working:
+  Make sure 'Ollama' is installed and running in the background.
+  Run 'ollama run phi' in a separate terminal.
+
+- If a command isn't understood:
+  Try rephrasing it simply.
+  Example: Instead of "trash this", say "delete file".
+
+- To exit:
+  Type "exit" or "quit".

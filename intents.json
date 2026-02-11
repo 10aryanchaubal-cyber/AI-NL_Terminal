@@ -1,0 +1,139 @@
+{
+  "CREATE_FOLDER": [
+    "create folder",
+    "make folder",
+    "create directory"
+  ],
+  "DELETE_FOLDER": [
+    "delete folder",
+    "remove folder",
+    "delete directory"
+  ],
+  "CREATE_FILE": [
+    "create file",
+    "make file"
+  ],
+  "ROLLBACK": [
+    "rollback",
+    "undo",
+    "revert",
+    "undelete",
+    "go back in time"
+  ],
+  "DELETE_FILE": [
+    "delete file",
+    "remove file"
+  ],
+  "RENAME_FILE": [
+    "rename file"
+  ],
+  "MOVE_FILE": [
+    "move file"
+  ],
+  "COPY_FILE": [
+    "copy file"
+  ],
+  "LIST_FILES": [
+    "list files",
+    "show files",
+    "display files"
+  ],
+  "CURRENT_DIR": [
+    "current directory",
+    "where am i",
+    "present directory"
+  ],
+  "GO_TO": [
+    "go to",
+    "open"
+  ],
+  "GO_BACK": [
+    "go back"
+  ],
+  "GO_HOME": [
+    "go home"
+  ],
+  "SHOW_HISTORY": [
+    "history",
+    "show history",
+    "command history"
+  ],
+  "EXPLAIN": [
+    "explain",
+    "what does"
+  ],
+  "LEARN": [
+    "teach me",
+    "learn",
+    "how to use"
+  ],
+  "UPGRADE_PIP": [
+    "upgrade pip",
+    "update pip"
+  ],
+  "UPGRADE_PACKAGE": [
+    "upgrade",
+    "update",
+    "install update"
+  ],
+  "CHECK_RAM": [
+    "check ram",
+    "memory usage",
+    "how much memory",
+    "ram status"
+  ],
+  "CHECK_CPU": [
+    "check cpu",
+    "cpu usage",
+    "cpu status",
+    "processor usage"
+  ],
+  "CHECK_DISK": [
+    "check disk",
+    "disk space",
+    "storage space",
+    "free space"
+  ],
+  "CHECK_IP": [
+    "what is my ip",
+    "my ip address",
+    "network info",
+    "show ip"
+  ],
+  "CHECK_INTERNET": [
+    "check internet",
+    "am i online",
+    "ping google",
+    "check connection"
+  ],
+  "LIST_PROCESSES": [
+    "list processes",
+    "show running apps",
+    "task list",
+    "what is running"
+  ],
+  "KILL_PROCESS": [
+    "kill process",
+    "end task",
+    "stop program",
+    "terminate"
+  ],
+  "CHECK_TIME": [
+    "what time is it",
+    "current time",
+    "show time",
+    "clock"
+  ],
+  "CHECK_DATE": [
+    "what is the date",
+    "current date",
+    "show date",
+    "today"
+  ],
+  "CLEAR_SCREEN": [
+    "clear screen",
+    "cls",
+    "clean terminal",
+    "clear"
+  ]
+}

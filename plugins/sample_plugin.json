@@ -1,0 +1,6 @@
+{
+  "intent": "SHOW_DATE",
+  "phrases": ["show date", "what is the date", "current date"],
+  "windows_command": "date /t",
+  "linux_command": "date"
+}
